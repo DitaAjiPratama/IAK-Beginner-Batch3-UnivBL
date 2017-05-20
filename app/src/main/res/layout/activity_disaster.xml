@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="coklatsusukrimdibekuin.com.iakbeginner.DisasterActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama anda"
+        android:textSize="14sp"
+        android:id="@+id/mTextNama"/>
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+        android:text="Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:layout_marginBottom="8dp"
+        tools:layout_width="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mSpinnerMenu" />
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+        android:text="Toping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="Susu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="Coklat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+        android:text="Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textSize="14sp"
+            android:text="-"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/mButtonMin"
+            android:onClick="onClickMin" />
+        <TextView
+            android:textSize="14sp"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextQty" />
+        <Button
+            android:textSize="14sp"
+            android:text="+"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/mButtonPlus"
+            android:onClick="onClickPlus" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:textSize="14sp"
+        android:text="$5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mTextHarga" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textSize="14sp"
+            android:text="Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickReset" />
+        <Button
+            android:textSize="14sp"
+            android:text="Order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mButtonOrder"
+            android:onClick="onClickOrder" />
+    </LinearLayout>
+
+</LinearLayout>
