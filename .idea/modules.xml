@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IAKBeginner.iml" filepath="$PROJECT_DIR$/IAKBeginner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IAK-Beginner-Batch3-UnivBL.iml" filepath="$PROJECT_DIR$/IAK-Beginner-Batch3-UnivBL.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
