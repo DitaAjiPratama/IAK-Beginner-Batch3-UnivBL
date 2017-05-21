@@ -9,26 +9,28 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/makan"
+        android:src="@drawable/jogging"
         android:scaleType="centerCrop"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday!"
+        android:text="Keep Healty with exercise"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:padding="20dp"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:textColor="#ffffff"/>
+        android:textSize="25sp"
+        android:textColor="#913e3e"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Wubba Lubba Dub Dub!"
+        android:text="IAK Body Mass Index"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -36,9 +38,9 @@
         android:padding="20dp"
         android:textSize="25sp"
         android:textStyle="bold"
-        android:textColor="#ffffff"
+        android:textColor="#913e3e"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/culik"
@@ -46,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:text="Culick Aku"
+        android:text="Tab to check now!"
         android:onClick="onClickButton"/>
 
 </RelativeLayout>
